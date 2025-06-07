@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "AI Chatbot",
+      "description": "Developed a chatbot using Python & NLP libraries.",
+      "progress": 65
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "HTML, CSS, JavaScript personal site hosted on GitHub.",
+      "progress": 90
+    }
+  ],
+  "courses": [
+    {
+      "title": "Java Programming – Udemy",
+      "progress": 80
+    },
+    {
+      "title": "DSA – NPTEL",
+      "progress": 50
+    }
+  ],
+  "dailyUpdates": [
+    {
+      "date": "2025-06-07",
+      "update": "Finished chatbot error handling and started React hooks module.",
+      "analysis": "Strong progress today. Need to revise algorithmic problems tomorrow."
+    },
+    {
+      "date": "2025-06-06",
+      "update": "Deployed portfolio site on GitHub, added dark mode toggle.",
+      "analysis": "Great UI improvement. Focus next on backend APIs."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+body{
+    background: #f4f7f8;
+    color: #333;
+    line-height: 1.6;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;    
+}
+header{
+    background-color: #0a66c2;
+    color:white;
+    padding: 30px 0;
+    text-align: center;
+}
+header nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+h1,h2{
+    margin-bottom: 15px;
+}
+.skills-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-list li{
+    background-color: #0a66c2;
+    color:white;
+    margin:5px 10px 5px 0;
+    padding:8px 15px;
+    border-radius:20px;
+    font-weight: 600;
+}
+section{
+    margin-bottom: 50px;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(red, green, blue, alpha)(10,102,194,0.15);
+}
+#project-list, #course-list, #daily-updates {
+  margin-top: 15px;
+}
+
+.project, .course, .update {
+  background: #e9f1ff;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.project h3, .course h3, .update h3 {
+  color: #0a66c2;
+  margin-bottom: 8px;
+}
+.progress-bar {
+  background: #d0e2ff;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 18px;
+  margin-top: 8px;
+}
+
+.progress-bar > div {
+  height: 100%;
+  background-color: #0a66c2;
+  text-align: right;
+  padding-right: 8px;
+  color: white;
+  font-weight: 700;
+  line-height: 18px;
+  border-radius: 20px;
+}
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background: #0a66c2;
+  color: white;
+  font-size: 14px;
+}
